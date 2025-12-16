@@ -1,0 +1,20 @@
+{
+    "name": "ButtonsP2V",
+    "version": "1.0.0",
+    "description": "A button library supporting direct GPIO and 74HC165 shift registers with debounce, double-click, and long-press detection.",
+    "keywords": "button, debounce, 74hc165, shift register, input",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BEE2V/ButtonsP2V.git"
+    },
+    "frameworks": "arduino",
+    "platforms": "*",
+    "export": {
+        "include": [
+            "include/*",
+            "src/*",
+            "library.json",
+            "README.md"
+        ]
+    }
+}
